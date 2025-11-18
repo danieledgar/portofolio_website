@@ -59,7 +59,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="px-4 py-2 rounded-full hover:bg-white dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out block">
+            <Link to="/profile" className="px-4 py-2 rounded-full hover:bg-white dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out block">
               Profile
             </Link>
           </li>
@@ -69,7 +69,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="px-4 py-2 rounded-full hover:bg-white dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out block">
+            <Link to="/resume" className="px-4 py-2 rounded-full hover:bg-white dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out block">
               Resume
             </Link>
           </li>
@@ -114,7 +114,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={() => setMenuOpen(false)} className="block px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out">
+            <Link to="/profile" onClick={() => setMenuOpen(false)} className="block px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out">
               Profile
             </Link>
           </li>
@@ -124,7 +124,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/contact" onClick={() => setMenuOpen(false)} className="block px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out">
+            <Link to="/resume" onClick={() => setMenuOpen(false)} className="block px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-all duration-300 ease-in-out">
               Resume
             </Link>
           </li>
