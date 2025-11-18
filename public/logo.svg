@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#000000"/>
+  
+  <!-- D Letter -->
+  <path d="M120 150 L120 362 L200 362 C260 362 290 332 290 256 C290 180 260 150 200 150 L120 150 Z M170 200 L200 200 C230 200 240 220 240 256 C240 292 230 312 200 312 L170 312 L170 200 Z" fill="#FFFFFF"/>
+  
+  <!-- E Letter -->
+  <path d="M320 150 L320 362 L420 362 L420 312 L370 312 L370 280 L410 280 L410 230 L370 230 L370 200 L420 200 L420 150 L320 150 Z" fill="#FFFFFF"/>
+  
+  <!-- Accent dot -->
+  <circle cx="430" cy="180" r="8" fill="#FFFFFF"/>
+</svg>

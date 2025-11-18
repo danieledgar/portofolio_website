@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Small custom styles */
+html, body, #root { height: 100%; }
+
+body { 
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Light mode - invert the dark background to light */
+@media (prefers-color-scheme: light) {
+  body {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  
+  body > * {
+    filter: invert(1) hue-rotate(180deg);
+  }
 }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+a { color: inherit; text-decoration: none; }

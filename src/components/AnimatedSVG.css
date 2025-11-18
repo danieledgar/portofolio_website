@@ -1,0 +1,56 @@
+@keyframes drawLine {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animated-path {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: drawLine 3s ease-in-out forwards;
+}
+
+.animated-path-delay {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: drawLine 3s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.animate-fade-in-scale {
+  animation: fadeInScale 1.2s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.5s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.8s;
+}
