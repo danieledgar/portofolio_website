@@ -2,7 +2,7 @@
   "name": "daniel-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danieledgar.github.io/portofolio_website",
+  "homepage": "https://danieledgar.github.io/portfolio_website",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

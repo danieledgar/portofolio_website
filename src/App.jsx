@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <Router basename="/portofolio_website">
+    <Router basename="/portfolio_website">
       <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white transition-colors duration-300">
         <Navbar />
         <Routes>
